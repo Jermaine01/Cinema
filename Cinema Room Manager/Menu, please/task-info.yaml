@@ -1,5 +1,5 @@
 type: edu
-custom_name: Menu, please!
+custom_name: "Menu, please!"
 files:
 - name: src/cinema/Cinema.java
   visible: true
@@ -386,5 +386,5 @@ feedback_link: https://hyperskill.org/learn/step/11108#comment
 status: Solved
 feedback:
   message: Congratulations!
-  time: Sat, 15 Oct 2022 22:01:44 UTC
+  time: "Sat, 15 Oct 2022 22:01:44 UTC"
 record: 4

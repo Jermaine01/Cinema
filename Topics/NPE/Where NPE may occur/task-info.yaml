@@ -1,12 +1,12 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: c, d
-- text: b, d
+- text: "c, d"
+- text: "b, d"
 - text: d
-- text: b, c, d
-- text: a, b, d
-- text: a, c
+- text: "b, c, d"
+- text: "a, b, d"
+- text: "a, c"
 files:
 - name: src/Task.java
   visible: true

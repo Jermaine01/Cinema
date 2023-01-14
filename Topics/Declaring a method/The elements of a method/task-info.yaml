@@ -5,7 +5,7 @@ options:
 - text: A class
 - text: Variables
 - text: A method name
-- text: Return type, or void
+- text: "Return type, or void"
 - text: Modifiers
 - text: A body of the method
 files:

@@ -1,5 +1,5 @@
 type: code
-custom_name: Print "Hello, Java!"
+custom_name: "Print \"Hello, Java!\""
 files:
 - name: src/Main.java
   visible: true
@@ -15,5 +15,5 @@ feedback_link: https://hyperskill.org/learn/step/4335#comment
 status: Solved
 feedback:
   message: <html>Correct solution</html>
-  time: Sat, 15 Oct 2022 14:09:40 UTC
+  time: "Sat, 15 Oct 2022 14:09:40 UTC"
 record: -1

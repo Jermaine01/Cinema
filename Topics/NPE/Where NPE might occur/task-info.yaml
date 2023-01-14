@@ -1,7 +1,7 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: Objects.equals(name, surname)
+- text: "Objects.equals(name, surname)"
 - text: name.equals(surname)
 - text: name.length()
 - text: '"Harrison".equals(name)'

@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/420385/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Thu, 06 Oct 2022 16:16:50 UTC
+update_date: "Thu, 06 Oct 2022 16:16:50 UTC"
 stages:
 - id: 709
   step: 11105
@@ -96,7 +96,7 @@ topics:
   - title: Arrays as parameters
     theory_id: 3594
   4:
-  - title: Write, compile, and run
+  - title: "Write, compile, and run"
     theory_id: 3739
   - title: String
     theory_id: 3523

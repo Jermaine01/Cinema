@@ -27,7 +27,6 @@ public class Cinema {
     public static void buyTicket(int rows, int columns, int[] seat, char[][] seats) {
         Scanner scanner = new Scanner(System.in);
         System.out.println();
-
         int rowNumber = 0;
         int seatNumber = 1;
         System.out.println("Enter a row number:");
@@ -35,8 +34,8 @@ public class Cinema {
         System.out.println("Enter a seat number in that row:");
         seat[seatNumber] = scanner.nextInt();
 
-        if ((seat[rowNumber]<1 || seat[rowNumber]>rows)||(seat[seatNumber]<1 || seat[seatNumber]>rows)) {
-            while((seat[rowNumber]<0 || seat[rowNumber]>rows)||(seat[seatNumber]<0 || seat[seatNumber]>rows-1)){
+        if ((seat[rowNumber] < 1 || seat[rowNumber] > rows)||(seat[seatNumber] < 1 || seat[seatNumber] > rows)) {
+            while((seat[rowNumber] < 0 || seat[rowNumber] > rows)||(seat[seatNumber] < 0 || seat[seatNumber] > rows-1)){
                 System.out.println("Wrong input!");
                 System.out.println("Enter a row number:");
                 seat[rowNumber] = scanner.nextInt();
@@ -60,6 +59,7 @@ public class Cinema {
 
         if (rows * columns <= 60) {
             System.out.println("Ticket price: $10");
+            Cinema.ticket_10++;
         } else {
             if (rows % 2 == 0) {
                 if (seat[rowNumber] <= rows / 2) {
@@ -108,8 +108,6 @@ public class Cinema {
         int rows = scanner.nextInt();
         System.out.println("Enter the number of seats in each row:");
         int columns = scanner.nextInt();
-        int ticket_10 = 0 ;
-        int ticket_8 = 0 ;
 
 
 
